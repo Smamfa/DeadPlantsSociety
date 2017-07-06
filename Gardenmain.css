@@ -123,3 +123,8 @@ h3 {
 	position:relative;
 }
 
+.tools img{
+	max-height: 400px;
+	caption-side: bottom;
+}
+
