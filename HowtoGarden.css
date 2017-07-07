@@ -1,11 +1,23 @@
-.HowToGarden {
-	margin-top: 50px;
+#HowToGarden {
+	margin-top: 100px;
+}
+#underwatered {
+	max-height: 200px;
+	float:left;
+	padding-right: 10px;
+	padding-bottom: 20px; 
 }
 
-h3 {
-	font-family: 'Spectral', serif;
-	font-size: 24px;
-	color: #4A2017;
-	margin-bottom: 10px;
-	text-shadow: none;
+#moving {
+	max-height: 150px;
+	float:right;
+	padding-right: 10px;
+	padding-bottom: 20px; 
+}
+
+#plantsvseeds {
+	float:left;
+	max-height: 150px;
+	padding-right: 10px;
+	padding-bottom: 20px; 
 }
