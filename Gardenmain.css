@@ -21,8 +21,6 @@
   padding-bottom: 20px
 }
 
-
-
 #plantofweek {
 	padding-top: 90px;
 	background-image: url('images/dead-trees-namibia.jpg');
@@ -47,14 +45,13 @@
 	padding-top: 50px;
 }
 
-#social-buttons {
-	padding-top: 90px;
+#footer {
+	padding-top: 30px;
 	text-align: center;
 	padding-bottom: 30px;
+	background-color: rgba(219,219,219,1);
 }
 
-.subsection {
-}
 
 .form-inline {
 	text-align: center;
@@ -100,20 +97,42 @@ h3 {
 	color:white; 
 }
 
-.btn-twitter {
-	background-color:#00acee;  
-	border-color:#009ad5;
-} 
-
-.btn-facebook  {
-	 background-color:#4868ac;
-	 border-color:#314776; 
-}
-
-.btn-pinterest  {  
-	background-color:#b62f26;  
-	border-color:#b62f26;
-}
+ul.contact
+	{
+		padding: 1em 0 0 0;
+		list-style: none;
+		cursor: default;
+	}
+	
+ul.contact li
+	{
+		display: inline-block;
+		margin: 0 1em;
+	}
+	
+ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+ul.contact li a
+	{
+		color: inherit;
+		font-size: 1.75em;
+		display: inline-block;
+		-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	}
+	
+ul.contact li a:hover
+	{
+		color: #fff;
+	}
 
 .bx-wrapper{
 	box-shadow: none;
