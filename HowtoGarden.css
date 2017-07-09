@@ -2,15 +2,15 @@
 	margin-top: 100px;
 }
 #underwatered {
-	max-height: 200px;
-	float:left;
+	max-height: 150px;
+	float:right;
 	padding-right: 10px;
 	padding-bottom: 20px; 
 }
 
 #moving {
 	max-height: 150px;
-	float:right;
+	float:left;
 	padding-right: 10px;
 	padding-bottom: 20px; 
 }
@@ -20,4 +20,35 @@
 	max-height: 150px;
 	padding-right: 10px;
 	padding-bottom: 20px; 
+}
+
+#planting {
+	float:right;
+	max-height: 150px;
+	padding-right: 10px;
+	padding-bottom: 20px; 
+}
+#flooded {
+	max-height: 150px;
+	float:left;
+	padding-right: 10px;
+	padding-bottom: 20px; 
+}
+
+#feeding {
+	max-height: 150px;
+	float:left;
+	padding-right: 10px;
+	padding-bottom: 20px; 
+}
+
+.footer1{
+	text-align: left;
+}
+
+.footer1 li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 50px
+
 }
