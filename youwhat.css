@@ -1,0 +1,112 @@
+
+h2 {
+	font-family: 'Spectral', serif;
+	font-size: 40px;
+	color: #4A2017;
+	text-shadow: 2px, 2px, black;
+	opacity: 0.9;
+}
+
+h3 {
+	font-family: 'Spectral', serif;
+	font-size: 30px;
+	color: #4A2017;
+	text-shadow: 2px, 2px, black;
+	opacity: 0.9;
+}
+
+p {
+	font-family: 'Spectral', serif;
+	font-size: 24px;
+	margin-bottom: 10px;
+	
+}
+
+#header{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url('images/dead-tree-3.jpg');
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+#youwhat h2{
+  font-size: 100px;
+  
+}
+
+#terminology{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	vertical-align: middle;
+
+}
+
+#footer {
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 30px;
+	background-color: rgba(219,219,219,1);
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.row{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.navbar {
+  background-color: rgba(32, 35, 41,0.8);
+}
+
+ul.contact
+	{
+		padding: 1em 0 0 0;
+		list-style: none;
+		cursor: default;
+	}
+	
+ul.contact li
+	{
+		display: inline-block;
+		margin: 0 1em;
+	}
+	
+ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+ul.contact li a
+	{
+		color: inherit;
+		font-size: 1.75em;
+		display: inline-block;
+		-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	}
+	
+ul.contact li a:hover
+	{
+		color: #fff;
+	}
+
+
