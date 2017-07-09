@@ -1,54 +1,32 @@
-#HowToGarden {
-	margin-top: 100px;
-}
-#underwatered {
-	max-height: 150px;
-	float:right;
-	padding-right: 10px;
-	padding-bottom: 20px; 
-}
 
-#moving {
-	max-height: 150px;
-	float:left;
-	padding-right: 10px;
-	padding-bottom: 20px; 
-}
 
-#plantsvseeds {
-	float:left;
-	max-height: 150px;
-	padding-right: 10px;
-	padding-bottom: 20px; 
-}
 
-#planting {
-	float:right;
-	max-height: 150px;
-	padding-right: 10px;
-	padding-bottom: 20px; 
-}
-#flooded {
-	max-height: 150px;
-	float:left;
-	padding-right: 10px;
-	padding-bottom: 20px; 
-}
 
-#feeding {
-	max-height: 150px;
-	float:left;
-	padding-right: 10px;
-	padding-bottom: 20px; 
-}
-
-.footer1{
-	text-align: left;
-}
-
-.footer1 li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 100px
+#header{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url('images/dead-tree-3.jpg');
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 }
+
+#footer{
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 30px;
+	background-color: rgba(219,219,219,1);
+}
+
+
+.row{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+p {
+	font-family: 'Spectral', serif;
+	font-size: 16px;
+	margin-bottom: 10px;
