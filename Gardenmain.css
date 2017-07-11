@@ -30,7 +30,6 @@
 	min-height: 800px;
 	height: 100vh;
 	align-content: center;
-	padding-top: 50px;
 }
 
 #mission {
@@ -136,10 +135,12 @@ ul.contact li a:hover
 
 .bx-wrapper{
 	box-shadow: none;
+	padding-top: 50px
 }
 
-.bx-caption{
-	position:relative;
+.bx-wrapper .bx-caption {
+	background: none;
+	text-align: center;
 }
 
 .tools img{
@@ -147,3 +148,11 @@ ul.contact li a:hover
 	caption-side: bottom;
 }
 
+.footer1 li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 100px;
+	font-family: 'Spectral', serif;
+	font-size: 16px;
+	color: #890707;
+}
