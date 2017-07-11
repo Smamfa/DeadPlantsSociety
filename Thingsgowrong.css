@@ -5,20 +5,33 @@
 
 #bloodyfoxglove {
 	max-height: 150px;
-	float:left;
-	padding-right: 10px;
-	padding-bottom: 20px; 
 }
 
 #lobeliathyme {
 	max-height: 150px;
-	float:left;
-	padding-right: 10px;
-	padding-bottom: 20px; 
 }
 
+.blogfont {
+	font-family: 'Spectral', serif;
+	font-size: 16px;
+	color: #890707;
+	justify-content: true;
+	
+}
+
+.blogfont .row{
+	padding-bottom: 20px;
+}
+
+
 .footer1{
-	text-align: left;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #efefef;
+	text-align: center;
 }
 
 .footer1 li{
