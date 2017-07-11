@@ -33,16 +33,14 @@
 	padding-top: 50px;
 }
 
-#mission {
-	padding-top: 90px;
-	font-family: 'Spectral', serif;
-	text-align: center;
-	min-height: 800px;
-	height: 100vh;
-	align-content: center;
-	background-image: url('images/Big-Dead-Tree-Yellow.jpg');
-	background-size: cover;	
-	padding-top: 50px;
+#header{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url('images/dead-tree-3.jpg');
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 #footer {
@@ -146,4 +144,46 @@ ul.contact li a:hover
 	max-height: 400px;
 	caption-side: bottom;
 }
+
+.footer1{
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	text-align: left;
+}
+
+.footer1 li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 50px
+
+}
+
+.blogfont {
+	font-family: 'Spectral', serif;
+	font-size: 20px;
+	color: #890707;
+	justify-content: true;
+	
+}
+
+.blogfont .row{
+	padding-bottom: 20px;
+}
+
+.floatleft{
+	float: left;
+	max-height: 250px;
+	max-width: 250px;
+	margin-right:20px;
+}
+
+.floatright{
+	float: right;
+	max-height: 250px;
+	margin-left:20px;
+}
+
 
