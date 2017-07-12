@@ -96,7 +96,7 @@ h3 {
 }
 
 
-#social-buttons  button {
+#social-buttons  button { 
 	color:white; 
 }
 
@@ -114,5 +114,9 @@ h3 {
 	background-color:#b62f26;  
 	border-color:#b62f26;
 }
-
+.item {
+	height: 800px;
+	width: auto;
+	align-content: center;
+}
 
