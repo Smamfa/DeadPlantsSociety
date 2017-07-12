@@ -133,6 +133,11 @@
   padding-bottom: 50px;
 }
 
+#nadia{
+	font-size: 12px;
+	text-align: center;
+}
+
 #plantofweek {
 	padding-top: 90px;
 	background-image: url('images/dead-trees-namibia.jpg');
