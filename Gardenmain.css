@@ -21,11 +21,9 @@
   padding-bottom: 20px
 }
 
-
-
 #plantofweek {
 	padding-top: 90px;
-	background-image: url('images/dead_trees_namibia.png');
+	background-image: url('images/dead-trees-namibia.jpg');
 	background-size: cover;	
 	font-family: 'Spectral', serif;
 	text-align: center;
@@ -35,26 +33,23 @@
 	padding-top: 50px;
 }
 
-#mission {
-	padding-top: 90px;
-	font-family: 'Spectral', serif;
-	text-align: center;
-	min-height: 800px;
-	height: 100vh;
-	align-content: center;
-	background-image: url('images/Big-Dead-Tree-Yellow.jpg');
-	background-size: cover;	
-	padding-top: 50px;
+#header{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url('images/dead-tree-3.jpg');
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
-#social-buttons {
-	padding-top: 90px;
+#footer {
+	padding-top: 30px;
 	text-align: center;
 	padding-bottom: 30px;
+	background-color: rgba(219,219,219,1);
 }
 
-.subsection {
-}
 
 .form-inline {
 	text-align: center;
@@ -81,9 +76,9 @@ h2 {
 h3 {
 	font-family: 'Spectral', serif;
 	font-size: 24px;
-	color: #D3D3D3;
+	color: #4A2017;;
 	margin-bottom: 10px;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
 }
 
 .navbar-inverse {
@@ -100,19 +95,95 @@ h3 {
 	color:white; 
 }
 
-.btn-twitter {
-	background-color:#00acee;  
-	border-color:#009ad5;
-} 
+ul.contact
+	{
+		padding: 1em 0 0 0;
+		list-style: none;
+		cursor: default;
+	}
+	
+ul.contact li
+	{
+		display: inline-block;
+		margin: 0 1em;
+	}
+	
+ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+ul.contact li a
+	{
+		color: inherit;
+		font-size: 1.75em;
+		display: inline-block;
+		-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	}
+	
+ul.contact li a:hover
+	{
+		color: #fff;
+	}
 
-.btn-facebook  {
-	 background-color:#4868ac;
-	 border-color:#314776; 
+.bx-wrapper{
+	box-shadow: none;
 }
 
-.btn-pinterest  {  
-	background-color:#b62f26;  
-	border-color:#b62f26;
+.bx-caption{
+	position:relative;
+}
+
+.tools img{
+	max-height: 400px;
+	caption-side: bottom;
+}
+
+.footer1{
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	text-align: left;
+}
+
+.footer1 li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 50px
+
+}
+
+.blogfont {
+	font-family: 'Spectral', serif;
+	font-size: 20px;
+	color: #890707;
+	justify-content: true;
+	
+}
+
+.blogfont .row{
+	padding-bottom: 20px;
+}
+
+.floatleft{
+	float: left;
+	max-height: 250px;
+	max-width: 250px;
+	margin-right:20px;
+}
+
+.floatright{
+	float: right;
+	max-height: 250px;
+	margin-left:20px;
 }
 .item {
 	height: 800px;
