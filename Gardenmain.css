@@ -1,3 +1,86 @@
+.blogfont {
+	font-family: 'Spectral', serif;
+	font-size: 20px;
+	color: #890707;
+	justify-content: true;
+}
+
+.blogfont .row{
+	padding-bottom: 20px;
+}
+
+.bx-caption{
+	position:relative;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.firstrow {
+	margin-top: 20px;
+}
+
+.floatleft {
+	float: left;
+	max-width: 350px;
+	max-height: 250px;
+	margin-right:20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.floatright {
+	float: right;
+	max-width: 350px;
+	max-height: 250px;
+	margin-left:20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.footer1{
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	text-align: left;
+}
+
+.footer1 li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 50px
+
+}
+
+.form {
+	font-family: 'Spectral', serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.form-inline {
+	text-align: center;
+	padding-bottom: 20px;
+	font-family: 'Spectral', serif;
+	font-size: 20px;
+}
+
+.form-inline imput[name='email'] {
+	width: 80%;
+}
+
+.highlighted {
+	background-color: rgba(255,255,255,0.5);
+}
+
 .jumbotron {
 	padding-top: 90px;
 	min-height: 800px;
@@ -21,16 +104,23 @@
   padding-bottom: 20px
 }
 
-#plantofweek {
-	padding-top: 90px;
-	background-image: url('images/dead-trees-namibia.jpg');
-	background-size: cover;	
-	font-family: 'Spectral', serif;
+.navbar-inverse {
+  background-color: rgba(32, 35, 41,0.8);
+}
+
+.submitform {
+	margin-top: 20px;
+}
+
+.submitbutton {
+	margin-top: 20px
+}
+
+#footer {
+	padding-top: 30px;
 	text-align: center;
-	min-height: 800px;
-	height: 100vh;
-	align-content: center;
-	padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: rgba(219,219,219,1);
 }
 
 #header{
@@ -43,17 +133,20 @@
   padding-bottom: 50px;
 }
 
-#footer {
-	padding-top: 30px;
+#plantofweek {
+	padding-top: 90px;
+	background-image: url('images/dead-trees-namibia.jpg');
+	background-size: cover;	
+	font-family: 'Spectral', serif;
 	text-align: center;
-	padding-bottom: 30px;
-	background-color: rgba(219,219,219,1);
+	min-height: 800px;
+	height: 100vh;
+	align-content: center;
+	padding-top: 50px;
 }
 
-
-.form-inline {
-	text-align: center;
-	padding-bottom: 20px;
+#social-buttons  button { 
+	color:white; 
 }
 
 h1 {
@@ -78,21 +171,14 @@ h3 {
 	font-size: 24px;
 	color: #4A2017;;
 	margin-bottom: 10px;
+	opacity: 1;
+}
+
+p {
+	font-family: 'Spectral', serif;
+	font-size: 20px;
+	margin-bottom: 10px;
 	
-}
-
-.navbar-inverse {
-  background-color: rgba(32, 35, 41,0.8);
-}
-
-
-.form-inline imput[name='email'] {
-	width: 80%;
-}
-
-
-#social-buttons  button { 
-	color:white; 
 }
 
 ul.contact
@@ -132,62 +218,9 @@ ul.contact li a:hover
 		color: #fff;
 	}
 
+}
 .bx-wrapper{
 	box-shadow: none;
 }
 
-.bx-caption{
-	position:relative;
-}
-
-.tools img{
-	max-height: 400px;
-	caption-side: bottom;
-}
-
-.footer1{
-	position: relative;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding: 1rem;
-	text-align: left;
-}
-
-.footer1 li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 50px
-
-}
-
-.blogfont {
-	font-family: 'Spectral', serif;
-	font-size: 20px;
-	color: #890707;
-	justify-content: true;
-	
-}
-
-.blogfont .row{
-	padding-bottom: 20px;
-}
-
-.floatleft{
-	float: left;
-	max-height: 250px;
-	max-width: 250px;
-	margin-right:20px;
-}
-
-.floatright{
-	float: right;
-	max-height: 250px;
-	margin-left:20px;
-}
-.item {
-	height: 800px;
-	width: auto;
-	align-content: center;
-}
 
